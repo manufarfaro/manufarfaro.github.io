@@ -9,14 +9,14 @@
 title-bold: Porfolio
 title-normal: Manu Farfaro
 email: manufarfaro@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: En esta web podrás ver algunos de mis trabajos como desarrollador <br/>(y algunos offtopic que me gustan)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://manufarfaro.github.io" # the base hostname & protocol for your site
 author: Manu Farfaro
-street_address: 
-city: 
-state:
-zip_code:
+street_address: Formosa 279
+city: Caballito
+state: Ciudad Autónoma de Buenos Aires
+zip_code: 1424
 country: Argentina
 phone: (0054) 15 4073-4687
 
@@ -27,20 +27,24 @@ gems:
   - jekyll-feed
   - jemoji
 
+sass:
+  sass_dir: assets/sass
+
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages" 
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # Social settings
-500px_url: 
-facebook_url: 
-github_url: 
+500px_url:
+facebook_url:
+github_url: https://github.com/manufarfaro
 gitlab_url: https://gitlab.com/u/manufarfaro
 googleplus_url: https://plus.google.com/u/0/+ManuFarfaro
 instagram_url: https://instagram.com
 linkedin_url: https://www.linkedin.com/in/manu-farfaro
-pinterest_url: 
-slack_url: 
+aboutme_url: https://about.me/manufarfaro
+pinterest_url:
+slack_url:
 twitter_url: https://twitter.com/manufarfaro
 
 # Build settings
@@ -51,8 +55,8 @@ twitter:
   username: manufarfaro
 # Add one or more of the following
 facebook:
-  app_id: 
-  publisher: 
-  admins: 
+  app_id:
+  publisher:
+  admins:
 logo:
-google_site_verification: 
+google_site_verification:

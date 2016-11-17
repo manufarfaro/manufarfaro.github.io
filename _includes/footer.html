@@ -4,20 +4,20 @@
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name" required/>
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="text" name="_replyto" id="email" required />
 				</div>
 				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
+					<label for="message">Mensaje</label>
+					<textarea name="message" id="message" style="resize: vertical;" rows="6" required></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
+					<li><input type="submit" value="Contactame" class="special" /></li>
+					<li><input type="reset" value="Borrar" /></li>
 				</ul>
 			</form>
 		</section>
@@ -26,23 +26,23 @@
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
+					<h3>Teléfono</h3>
 					<span>{{ site.phone }}</span>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>{{ site.street_address }}<br />
-					{{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-					{{ site.country }}</span>
+						<h3>Donde estoy</h3>
+						{{ site.city }}<br />
+						{{ site.state }}, {{ site.country }}
+					</span>
 				</div>
 			</section>
 		</section>
@@ -86,9 +86,7 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title-bold }} {{ site.title-normal }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-				
+				<li>Tema Basado en: <a href="https://github.com/andrewbanchich/Forty-Jekyll-Theme" target="_blank">Forty Theme de Andrew Banchich</a></li>
 			</ul>
 		</div>
 	</footer>

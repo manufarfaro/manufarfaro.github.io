@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-landing-title: Hi, my name is Forty
-description: 
-image: 
-author: 
-nav-menu: 
+landing-title: Hola, estos son algúnos de mis trabajos
+description: En esta web podrás ver algunos de mis trabajos como desarrollador (y algunos offtopic que me gustan)
+image: https://s.gravatar.com/avatar/6a886422955cee09542d1048ca16abca?s=800
+author: Emanuel Farfaro Ruiz
+nav-menu:
 ---
 
 <!-- Banner -->
@@ -17,7 +17,7 @@ nav-menu:
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
 			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">Get Started</a></li>
+				<li><a href="https://about.me/manufarfaro" class="button next scrolly">Acerca de Mi</a></li>
 			</ul>
 		</div>
 	</div>
@@ -33,14 +33,16 @@ nav-menu:
 <section id="two">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Un poco acerca de mi...</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>
+		Fanático de la Música, las artes marciales, y por aprender nuevas tecnologías. Loco por la ciencia,
+me encanta estudiar y mi materia favoríta hasta ahora fué álgebra. Tanto en mi profesión como en mis otras actividades me consideran un Nerd innato. Me encanta viajar y el Software Libre.Mi S.O. para todo es Linux.
+		</p>
 		<ul class="actions">
-			<li><a href="landing.html" class="button next">Get Started</a></li>
+			<li><a href="{{ site.aboutme_url }}" class="button next">Acerca de mi</a></li>
 		</ul>
 	</div>
 </section>
 
 </div>
-
